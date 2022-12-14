@@ -22,7 +22,7 @@ kecuali pernyataan, tetapi jika dibiarkan, mereka akan menghentikan program dan 
 ### Menangani Pengecualian
 Jika Anda memiliki beberapa kode mencurigakan yang mungkin mengeluarkan pengecualian, Anda dapat mempertahankan program Anda letakkan kode yang mencurigakan di **try: blok**. Setelah coba: blok, sertakan pernyataan sertakan **except:** statemen, diikuti oleh blok kode yang menangani masalah seanggun mungkin.
 #### Contoh
-- Contoh contoh ini membuka file, menulis konten file, dan keluar dengan aman karena ada tidak masalah
+- Contoh-contoh ini membuka file, menulis konten file, dan keluar dengan aman karena ada tidak masalah
 - Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
 ![gambar](pr9/9.2.png)
 - Contoh ini mencoba membuka file yang Anda tidak memiliki izin menulis, sehingga membuat file pengecualian
