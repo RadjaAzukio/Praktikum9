@@ -69,7 +69,7 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 ### Melempar Pengecualian
 #### Contoh
 - Pengecualian dapat berupa string, kelas, atau objek. Sebagian besar pengecualian adalah pengecualian dari inti Python menimbulkan adalah kelas, dengan argumen=argumen yang merupakan turunan dari kelas. Mendefinisikan pengecualian barucukup mudah dan dapat dilakukan sebagai berikut:
-1[gambar](pr9/9.6.png)
+![gambar](pr9/9.6.png)
 ### Pengecualian yang Ditetapkan Pengguna
 - Python juga memungkinkan Anda membuat pengecualian sendiri dengan menurunkan kelas-kelas dari yang standar pengecualian bawaan.
 - Berikut adalah contoh-contoh yang terkait dengan RuntimeError. Di sini, kelas dibuat yang merupakan subkelas dari subkelas RuntimeError. Ini berguna saat Anda perlumenampilkan tampilan informasi yang lebih spesifik saat e pengecualian tertangkap.
