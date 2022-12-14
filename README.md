@@ -17,16 +17,16 @@ Pengecualian AssertionError Pengecualian AssertionError dapat ditangkap dan dita
 kecuali pernyataan, tetapi jika dibiarkan, mereka akan menghentikan program dan menghasilkan backtrace.
 #### Contoh
 - Berikut adalah fungsi fungsi yang mengubah suhu dari derajat Kelvin menjadi derajat Fahrenheit.Karena nol derajat Kelvin dingin, fungsi fungsi menyimpannya jika melihat negatif negatif suhu.
-- Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
+- Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 ![gambar](pr9/9.1.png)
 ### Menangani Pengecualian
 Jika Anda memiliki beberapa kode mencurigakan yang mungkin mengeluarkan pengecualian, Anda dapat mempertahankan program Anda letakkan kode yang mencurigakan di **try: blok**. Setelah coba: blok, sertakan pernyataan sertakan **except:** statemen, diikuti oleh blok kode yang menangani masalah seanggun mungkin.
 #### Contoh
 - Contoh-contoh ini membuka file, menulis konten file, dan keluar dengan aman karena ada tidak masalah
-- Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
+- Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 ![gambar](pr9/9.2.png)
 - Contoh ini mencoba membuka file yang Anda tidak memiliki izin menulis, sehingga membuat file pengecualian
-- Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
+- Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 ![gambar](pr9/9.3.png)
 ### Fasal kecuali tanpa Pengecualian
 - Anda juga dapat menggunakan pernyataan exception tanpa exception yang didefinisikan sebagai berikut:
@@ -64,7 +64,7 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 ### Argumen Pengecualian
 #### Contoh
 - Berikut adalah contoh untuk satu pengecualian
-- Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
+- Ketika kode di bawah dijalankan, menghasilkan hasil sebagai berikut:
 ![gambar](pr9/9.5.png)
 ### Melempar Pengecualian
 #### Contoh
