@@ -75,3 +75,5 @@ Ketika exception dilempar ke dalam blok try, eksekusi segera dilanjutkan ke akhi
 - Berikut adalah contoh-contoh yang terkait dengan RuntimeError. Di sini, kelas dibuat yang merupakan subkelas dari subkelas RuntimeError. Ini berguna saat Anda perlumenampilkan tampilan informasi yang lebih spesifik saat e pengecualian tertangkap.
 - Di blok coba, pengecualian yang ditentukan pengguna dimunculkan dan ditangkap di blok kecuali. Itu variabel e digunakan untuk membuat instance dari kelas Networkerror.
 ![gambar](pr9/9.7.png)
+###### hihi ^^
+###### Cya
